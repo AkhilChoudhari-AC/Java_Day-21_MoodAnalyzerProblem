@@ -29,4 +29,3 @@ public class MoodAnalyserTest {
         Assert.assertEquals("HAPPY", actualResult);
     }
 }
-
