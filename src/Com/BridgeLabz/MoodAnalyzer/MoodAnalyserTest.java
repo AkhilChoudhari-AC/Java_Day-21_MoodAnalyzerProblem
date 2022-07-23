@@ -17,6 +17,7 @@ public class MoodAnalyserTest {
         String actualResult = moodAnalyser.analyseMood();
         Assert.assertEquals("SAD", actualResult);
     }
+
     @Test
     /**
      * created method analyseAnyMood() for getting mood as Happy
@@ -27,5 +28,5 @@ public class MoodAnalyserTest {
         String actualResult = moodAnalyser.analyseMood();
         Assert.assertEquals("HAPPY", actualResult);
     }
-
 }
+
