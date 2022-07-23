@@ -13,7 +13,7 @@ public class MoodAnalyser {
     /**
      * create parameterized constructor by passing string message
      *
-     * @param message
+     * @param message -passing string message
      */
     public MoodAnalyser(String message) {
         this.message = message;
