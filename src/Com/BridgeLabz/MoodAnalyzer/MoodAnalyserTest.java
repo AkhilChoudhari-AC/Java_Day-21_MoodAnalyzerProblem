@@ -22,9 +22,9 @@ public class MoodAnalyserTest {
     /**
      * created method analyseAnyMood() for getting mood as Happy
      */
-    public void analyseAnyMood() {
+    public void analyseHappyMood() {
         MoodAnalyser moodAnalyser = new MoodAnalyser();
-        moodAnalyser.setMessage("I am in any Mood");
+        moodAnalyser.setMessage("I am in Happy Mood");
         String actualResult = moodAnalyser.analyseMood();
         Assert.assertEquals("HAPPY", actualResult);
     }
